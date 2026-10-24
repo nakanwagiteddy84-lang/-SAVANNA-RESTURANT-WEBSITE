@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Savannah Bites | Contact & Reservations</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Lato:wght@300;400;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand fw-bold fs-3" href="index.html">🌿 Savannah Bites Restaurant</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">Our Story</a></li>
+          <li class="nav-item"><a class="nav-link" href="menu.html">Our Menu</a></li>
+          <li class="nav-item"><a class="nav-link" href="gallery.html">Photo Gallery</a></li>
+          <li class="nav-item"><a class="nav-link active" href="contact.html">Contact Us</a></li>
+        </ul>
+        <button class="btn btn-warning ms-3 fw-bold" data-bs-toggle="modal" data-bs-target="#reserveModal">Book a Table</button>
+        <a href="https://wa.me/256702286577?text=Hello%20Savannah%20Bites%2C%20I%20want%20to%20order%20from%20the%20menu." target="_blank" class="btn btn-success ms-2 fw-bold">📱 Order Now</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- PAGE HERO -->
+  <div class="page-hero d-flex align-items-center justify-content-center text-center text-white">
+    <div>
+      <p class="hero-tag">Get in Touch</p>
+      <h1 class="display-4 fw-bold">Contact &amp; Reservations</h1>
+      <p class="lead">We'd love to hear from you — book your table today!</p>
+    </div>
+  </div>
+
+  <!-- CONTACT & FORM SECTION -->
+  <section class="py-5">
+    <div class="container">
+      <div class="row g-5">
+
+        <!-- CONTACT INFO -->
+        <div class="col-lg-5">
+          <p class="section-tag text-warning fw-bold text-uppercase letter-spacing">Reach Us</p>
+          <h2 class="section-title display-6 mb-4">Contact Details</h2>
+
+          <div class="contact-info-item d-flex align-items-start mb-4">
+            <div class="contact-icon me-3">📍</div>
+            <div>
+              <h6 class="fw-bold mb-1">Our Location</h6>
+              <p class="text-muted mb-0">Plot 12, Ntinda Road<br/>Kampala, Uganda</p>
+              <a href="https://maps.google.com/?q=Plot+12,+Ntinda +Road,+Kampala,+Uganda" target="_blank" class="btn btn-sm btn-outline-warning mt-2">Get Directions</a>
+            </div>
+          </div>
+          <div class="contact-info-item d-flex align-items-start mb-4">
+            <div class="contact-icon me-3">📞</div>
+            <div>
+              <h6 class="fw-bold mb-1">Phone</h6>
+              <p class="text-muted mb-0">+256 0702286577<br/>+256 0752876285</p>
+              <a href="tel:+256702286577" class="btn btn-sm btn-outline-warning mt-2">Call Now</a>
+            </div>
+          </div>
+          <div class="contact-info-item d-flex align-items-start mb-4">
+            <div class="contact-icon me-3">✉️</div>
+            <div>
+              <h6 class="fw-bold mb-1">Email</h6>
+              <p class="text-muted mb-0">nakanwagiteddy84@gmail.com<br/>reservations@savannahbites.ug</p>
+              <a href="mailto:nakanwagiteddy84@gmail.com" class="btn btn-sm btn-outline-warning mt-2">Send Email</a>
+            </div>
+          </div>
+          <div class="contact-info-item d-flex align-items-start mb-4">
+            <div class="contact-icon me-3">🕐</div>
+            <div>
+              <h6 class="fw-bold mb-1">Opening Hours</h6>
+              <p class="text-muted mb-0">Monday – Friday: 10:00 AM – 10:00 PM<br/>Saturday – Sunday: 9:00 AM – 11:00 PM</p>
+            </div>
+          </div>
+
+          <!-- SOCIAL MEDIA -->
+          <div class="contact-info-item mb-4">
+            <h6 class="fw-bold mb-3">Follow Us</h6>
+            <div class="d-flex gap-3">
+              <a href="https://wa.me/256702286577" target="_blank" class="btn btn-success btn-sm rounded-circle" title="WhatsApp">
+                📱
+              </a>
+            
+              </a>
+              <a href="https://facebook.com/savannahbites" target="_blank" class="btn btn-primary btn-sm rounded-circle" title="Facebook">
+                📘
+              </a>
+          
+              </a>
+            </div>
+          </div>
+
+          <!-- MAP PLACEHOLDER -->
+          <div class="map-placeholder rounded overflow-hidden mt-4">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.7574697456577!2d32.5774682!3d0.3136033!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x177dbb0f6bec6a55%3A0x1b1e3f37d5e7b7c!2sNtinda%20Road%2C%20Kampala!5e0!3m2!1sen!2sug!4v1680000000000"
+              width="100%" height="220" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade" title="Savannah Bites Location">
+            </iframe>
+          </div>
+        </div>
+
+        <!-- RESERVATION FORM -->
+        <div class="col-lg-7">
+          <div class="reservation-form-card p-4 p-md-5 rounded shadow-sm">
+            <p class="section-tag text-warning fw-bold text-uppercase letter-spacing">Book Your Table</p>
+            <h2 class="section-title display-6 mb-4">Make a Reservation</h2>
+
+            <!-- Success Alert (hidden by default) -->
+            <div id="successAlert" class="alert alert-success d-none" role="alert">
+              <div class="d-flex align-items-center">
+                <div class="me-3">📱</div>
+                <div>
+                  <strong>Reservation sent via WhatsApp!</strong> We've opened WhatsApp with your reservation details. We'll confirm your booking shortly.
+                </div>
+              </div>
+            </div>
+
+            <!-- Error Alert (hidden by default) -->
+            <div id="errorAlert" class="alert alert-danger d-none" role="alert">
+              <div class="d-flex align-items-center">
+                <div class="me-3">❌</div>
+                <div>
+                  <strong>Please check your information</strong> and try again.
+                </div>
+              </div>
+            </div>
+
+            <div id="reservationForm">
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <label class="form-label fw-semibold">Full Name <span class="text-danger">*</span></label>
+                  <input type="text" class="form-control" id="resName" placeholder="e.g. Aisha Mukasa"/>
+                  <div class="invalid-feedback" id="nameError">Please enter your full name.</div>
+                </div>
+                <div class="col-md-6">
+                  <label class="form-label fw-semibold">Email Address <span class="text-danger">*</span></label>
+                  <input type="email" class="form-control" id="resEmail" placeholder="you@email.com"/>
+                  <div class="invalid-feedback" id="emailError">Please enter a valid email address.</div>
+                </div>
+                <div class="col-md-6">
+                  <label class="form-label fw-semibold">Phone Number</label>
+                  <div class="input-group">
+                    <span class="input-group-text bg-light border-end-0">🇺🇬 +256</span>
+                    <input type="tel" class="form-control border-start-0" id="resPhone" placeholder="700 123 456"/>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <label class="form-label fw-semibold">Number of Guests <span class="text-danger">*</span></label>
+                  <select class="form-select" id="resGuests">
+                    <option value="">Select number of guests</option>
+                    <option value="1">1 Person</option>
+                    <option value="2">2 People</option>
+                    <option value="3">3 People</option>
+                    <option value="4">4 People</option>
+                    <option value="5">5 People</option>
+                    <option value="6">6 People</option>
+                    <option value="7+">7+ People (Large Group)</option>
+                  </select>
+                  <div class="invalid-feedback" id="guestsError">Please select number of guests.</div>
+                </div>
+                <div class="col-md-6">
+                  <label class="form-label fw-semibold">Reservation Date <span class="text-danger">*</span></label>
+                  <input type="date" class="form-control" id="resDate" min="<?php echo date('Y-m-d'); ?>"/>
+                  <div class="invalid-feedback" id="dateError">Please select a valid date.</div>
+                </div>
+                <div class="col-md-6">
+                  <label class="form-label fw-semibold">Preferred Time</label>
+                  <select class="form-select" id="resTime">
+                    <option value="">Select time</option>
+                    <option>10:00 AM</option>
+                    <option>12:00 PM</option>
+                    <option>1:00 PM</option>
+                    <option>2:00 PM</option>
+                    <option>5:00 PM</option>
+                    <option>6:00 PM</option>
+                    <option>7:00 PM</option>
+                    <option>8:00 PM</option>
+                  </select>
+                </div>
+                <div class="col-12">
+                  <label class="form-label fw-semibold">Special Requests</label>
+                  <textarea class="form-control" id="resNotes" rows="3" placeholder="Dietary requirements, occasion, seating preference..."></textarea>
+                </div>
+                <div class="col-12 mt-3">
+                  <button type="button" class="btn btn-warning btn-lg fw-bold w-100 py-3" onclick="submitReservation()">
+                    <span class="me-2">✅</span>Confirm Reservation
+                  </button>
+                  <p class="text-muted small text-center mt-3 mb-0">
+                    By booking, you agree to our terms. We'll confirm within 2 hours.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ SECTION -->
+  <section class="py-5 bg-light">
+    <div class="container">
+      <div class="text-center mb-5">
+        <p class="section-tag text-warning fw-bold text-uppercase letter-spacing">Have Questions?</p>
+        <h2 class="section-title display-5">Frequently Asked Questions</h2>
+        <div class="title-divider mx-auto"></div>
+      </div>
+      <div class="row g-4">
+        <div class="col-md-6">
+          <div class="accordion" id="faqAccordion">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                  Do you accept walk-ins?
+                </button>
+              </h2>
+              <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                  Yes! We welcome walk-ins, but reservations are recommended during peak hours (6-9 PM) to ensure you get your preferred table.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+                  Do you cater for special dietary requirements?
+                </button>
+              </h2>
+              <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                  Absolutely! We accommodate vegetarian, vegan, gluten-free, and other dietary needs. Please mention your requirements when booking.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+                  Is parking available?
+                </button>
+              </h2>
+              <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                  Yes, we have secure parking available on-site. Valet parking is also available for dinner reservations.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="accordion" id="faqAccordion2">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4">
+                  Do you accept credit cards?
+                </button>
+              </h2>
+              <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion2">
+                <div class="accordion-body">
+                  Yes, we accept all major credit cards, mobile money (MTN/Airtel), and cash payments.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq5">
+                  Can I modify or cancel my reservation?
+                </button>
+              </h2>
+              <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion2">
+                <div class="accordion-body">
+                  Yes, please call us at least 2 hours in advance to modify or cancel your reservation. Same-day cancellations may incur a fee.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq6">
+                  Do you offer private dining?
+                </button>
+              </h2>
+              <div id="faq6" class="accordion-collapse collapse" data-bs-parent="#faqAccordion2">
+                <div class="accordion-body">
+                  Yes! Our private dining room accommodates up to 20 guests. Perfect for special occasions, business meetings, or celebrations.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer-section py-2 text-white">
+    <div class="container">
+      <div class="row g-2">
+        <div class="col-md-4">
+          <h5 class="fw-bold mb-2">🌿 Savannah Bites</h5>
+          <p class="text-white-50 small">Bringing the flavors of Africa to your table. Located in the heart of Kampala, Uganda.</p>
+        </div>
+        <div class="col-md-4">
+          <h6 class="fw-bold text-warning mb-2">Quick Links</h6>
+          <ul class="list-unstyled">
+            <li><a href="index.html" class="footer-link small">Home</a></li>
+            <li><a href="about.html" class="footer-link small">About</a></li>
+            <li><a href="menu.html" class="footer-link small">Menu</a></li>
+            <li><a href="gallery.html" class="footer-link small">Gallery</a></li>
+            <li><a href="contact.html" class="footer-link small">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h6 class="fw-bold text-warning mb-2">Contact Us</h6>
+          <p class="text-white-50 small mb-1">📍 Plot 12, Ntinda Road, Kampala</p>
+          <p class="text-white-50 small mb-1">📞 +256 702286577</p>
+          <p class="text-white-50 small mb-1">✉️ hello@savannahbites.ug</p>
+          <p class="text-white-50 small">🕐 Mon–Sun: 10:00 AM – 10:00 PM</p>
+        </div>
+      </div>
+      <hr class="border-secondary my-2"/>
+      <p class="text-center text-white-50 small mb-0">&copy; 2026 Savannah Bites Restaurant. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- RESERVE MODAL -->
+  <div class="modal fade" id="reserveModal" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header border-0 pb-0">
+          <h5 class="modal-title fw-bold">🌿 Reserve a Table</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body pt-2">
+          <div class="mb-3">
+            <label class="form-label fw-semibold">Full Name</label>
+            <input type="text" class="form-control" id="modalName" placeholder="e.g. Aisha Mukasa"/>
+          </div>
+          <div class="mb-3">
+            <label class="form-label fw-semibold">Email Address</label>
+            <input type="email" class="form-control" id="modalEmail" placeholder="you@email.com"/>
+          </div>
+          <div class="row g-3 mb-3">
+            <div class="col-6">
+              <label class="form-label fw-semibold">Date</label>
+              <input type="date" class="form-control" id="modalDate"/>
+            </div>
+            <div class="col-6">
+              <label class="form-label fw-semibold">Guests</label>
+              <select class="form-select" id="modalGuests">
+                <option value="">Select</option>
+                <option>1</option><option>2</option><option>3</option>
+                <option>4</option><option>5</option><option>6+</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer border-0 pt-0">
+          <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Cancel</button>
+          <button type="button" class="btn btn-warning fw-bold px-4" onclick="submitModalReservation()">Confirm Reservation</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
